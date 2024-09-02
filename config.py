@@ -10,17 +10,17 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7295577917:AAG7tlxl4N38YWN26mXyQ18oSVh49ywyu9Q")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "24440741"))
 #Your API Hash from my.telegram.org
 API_HASH = os.environ.get("API_HASH", "eda231ff278ef43dc36164de83ee8fd6")
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002169438785"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-2220097322"))
 # NAMA OWNER
 OWNER = os.environ.get("OWNER", "XynoFT")
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "1833463223"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "6307223516"))
 #Port
 PORT = os.environ.get("PORT", "8030")
 #Database
@@ -40,7 +40,7 @@ ABOUT_TXT = "<b>◈ ᴄʀᴇᴀᴛᴏʀ: <a href=https://t.me/cosmic_freak>subar
 START_MSG = os.environ.get("START_MESSAGE", "<b>ʙᴀᴋᴋᴀᴀᴀ!! {first}\n\n ɪ ᴀᴍ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ, ɪ ᴄᴀɴ sᴛᴏʀᴇ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇs ɪɴ sᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ.</b>")
 try:
     ADMINS=[6376328008]
-    for x in (os.environ.get("ADMINS", "1833463223").split()):
+    for x in (os.environ.get("ADMINS", "6307223516").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
