@@ -16,7 +16,7 @@ APP_ID = int(os.environ.get("APP_ID", "24440741"))
 #Your API Hash from my.telegram.org
 API_HASH = os.environ.get("API_HASH", "eda231ff278ef43dc36164de83ee8fd6")
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002240732384"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002211865712"))
 # NAMA OWNER
 OWNER = os.environ.get("OWNER", "XynoFT")
 #OWNER ID
@@ -27,8 +27,8 @@ PORT = os.environ.get("PORT", "8030")
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://megadiwani:gnTnDjCx1jB9W9hg@cluster0.ak69r.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002159673469"))
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-100215967346"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002238297424"))
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-100223829742"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "1"))
 
